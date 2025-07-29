@@ -1,0 +1,33 @@
+#navbar{
+    height: auto;
+    width: auto;
+    background-color: aquamarine;
+    /* justify-content: end; */
+    display: flex;
+    flex-direction: column;
+    place-items: end;
+    
+
+}
+.navitems{
+    color: rgb(0, 0, 0);
+    margin-right: 15px;
+    align-items: center;
+
+}
+.headings{
+    /* font-weight: 900; */
+    font-style: italic;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+#socialhandles{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: rgb(214, 195, 171) ;
+    height: auto;
+
+}

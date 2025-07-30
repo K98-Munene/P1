@@ -4,6 +4,8 @@ body{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    background-color: rgba(243, 218, 171, 0.356);
+    color:rgb(0, 0, 0);
 
 }
 
@@ -32,6 +34,44 @@ main{
     align-items: center;
 
 }
+.navitems:hover{
+    font-size: larger;
+    /* text-shadow: #e40d0d; */
+    text-decoration-line:underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #f0a504;
+}
+.container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #fce5dc;
+      padding: 15px;
+      width: 300px;
+      height: 200px;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+      transition: all 0.4s ease;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+      height: auto;
+      box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
+      background-color: #fce0d5;
+      cursor: pointer;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
 .headings{
     /* font-weight: 900; */
     font-style: italic;

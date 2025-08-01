@@ -28,27 +28,46 @@ main{
 
 
 }
-.navitems{
-    color: rgb(0, 0, 0);
-    /* margin-right: 15px; */
-    align-items: center;
+header {
+      background-color: #d8f3dc;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #ccc;
+ }
 
+header a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #004d40;
+      font-weight: bold;
 }
-.navitems:hover{
-    font-size: larger;
-    /* text-shadow: #e40d0d; */
-    text-decoration-line:underline;
-    text-decoration-thickness: 3px;
-    text-decoration-color: #f0a504;
+a:hover{
+      text-decoration-line: underline;
+      text-decoration-color: #011b17 ;
+      text-decoration-thickness: 2px;
 }
+.section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+}
+
+.section h2 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-style: italic;
+      color: #000;
+}
+
 .container {
       display: flex;
       gap: 20px;
       flex-wrap: wrap;
       justify-content: center;
-    }
+}
 
-    .card {
+.card {
       background-color: #fce5dc;
       padding: 15px;
       width: 300px;
@@ -57,21 +76,21 @@ main{
       transition: all 0.4s ease;
       overflow: hidden;
       border-radius: 8px;
-    }
+}
 
-    .card:hover {
+.card:hover {
       transform: scale(1.1);
       height: auto;
       box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
       background-color: #fce0d5;
       cursor: pointer;
-    }
+}
 
-    .card p {
+.card p {
       margin: 0;
       font-size: 14px;
       line-height: 1.5;
-    }
+}
 .headings{
     /* font-weight: 900; */
     font-style: italic;
